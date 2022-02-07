@@ -1,0 +1,23 @@
+Package: pratcTidy
+Title: Tidy data in practical way (Title Case)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Medici",
+           family = "House",
+           role = c("aut", "cre"),
+           email = "medicihouse07@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-8572-3755"))
+Description: Actually this is my personal toolkit, it helps my handling practical 
+    data problem easily
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://medicihouse07.github.io/
+Imports:
+  dplyr,
+  stringr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.2
